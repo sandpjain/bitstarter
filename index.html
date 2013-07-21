@@ -1,101 +1,226 @@
 <!DOCTYPE html>
-<html lang ="en">
-  <head>
-    <meta charset="utf-8">
-    <title>My First Bitstarter</title>
-    <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
-    <style type="text/css">
-      body {
-        padding-top: 20px;
-        padding-bottom: 40px;
-      }
-      container {
-        width: 960px;
-      }
-      p.lead {
-        padding-top: 15px;
-      }
-      .navigation, .pitch, .section1, .section2, .faq, .footer {
-        padding: 10px 0px 10px 0px;
-      }
-      .video, .thermometer, .order, .social {
-        border: 1px dotted;
-        text-align: center;
-      }
-      .video {
-        /* Internal borders have 1px width, thus need to add 4 x 1px to 120px. */
-        height: 124px;
-        line-height: 124px;
-      }
-      .thermometer, .order, .social {
-        /* line-height to vertically center: http://phrogz.net/css/vertical-align/index.html */
-        height: 40px;
-        line-height: 40px;
-      }
-      div.row {
-        border: 1px solid;
-      }
-    </style>
-   </head>
-   <body>
-     <div class="container">
-       <div class="row navigation">
-	 <div class="span2 logo">
-	   Logo
-	 </div>
-	 <div class="span6 blank">
-	   Blank
-	 </div>
-	 <div class="span4 about">
-	   About
-	 </div>   
-       </div>
-       <div class="row heading">
-	 <div class="span12">
-	   <h1>Bitstarter Title</h1>
-	 </div>
-       </div>	
-       <div class="row subheading">
-	 <div class="span12">
-	   <p class="lead">This is my first bitstarter project.</p>
-	 </div>
-       </div>	 
-       <div class="row pitch">
-	 <div class="span6 video">
-	   Video
-	 </div>
-	 <div class="span6">
-	   <div class="thermometer">
-	     Thermometer
-	   </div>
-	   <div class="order">
-	     Order
-	   </div>
-	   <div class="social">
-	     Social
-	   </div>
-	 </div>
-       </div>
-       <div class="row section1">
-	 <div class="span12">
-	   Marketing Section 1
-	 </div>
-       </div>
-       <div class="row section2">
-	 <div class="span12">
-	   Marketing Section 2
-	 </div>
-       </div>
-       <div class="row faq">
-	 <div class="span12">
-	   FAQ
-	 </div>
-       </div>
-       <div class="row footer">
-	 <div class="span12">
-	   Footer
-	 </div>
-       </div>
-     </div>
-   </body>
- </html>  
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Vivah Soochna</title>
+		<style type="text/css">
+			body {
+				margin: 0px;
+				color: #000000;
+				font-size: 12px;
+				font-family: Arial, Verdana, Univers;
+				background-color: #FFFFFF;
+			}
+			
+			h1 { color: #000000; font-size: 16px; font-weight: bold; margin: 3px 0px 25px 0px; }
+			h2 { color: #000000; font-size: 14px; font-weight: normal; margin: 0px 0px 0px 0px; }
+
+			.container {
+				width: 1000px;
+				margin-left: auto;
+				margin-right: auto;
+				background-color: #FFFFFF;
+			}
+			
+			.toplogo {
+				margin-left: 0px;
+				padding-top: 20px;
+				float: left;
+				font-size: 36px;
+				font-weight: bold;
+				color: #000;
+				padding-left: 20px;
+			}
+
+			.slogan {
+				font-size: 14px;
+			}
+			
+			.bannerArea {
+				width: 1000px;
+				height: 85px;
+				/* background-image: url(images/shadow_bar.jpg); */
+				background-repeat: repeat-x;
+			}
+			
+			.bannerNav {
+				margin-left: 25px;
+				margin-top: 15px;
+				color: #806c51;
+				font-size: 12px;
+				font-weight: bold;
+				float: right;
+			}
+			
+			.bannerNav li{
+				list-style: none;
+				float:left;
+				margin: 0px 10px 0px 0px;
+				#margin-left: 20px; /* for IE */
+			}
+
+			.bannerNav a{
+				margin-left: 0px;
+				padding-left: 0px;
+				padding-top: 0px;
+				padding-right: 15px;
+				padding-bottom: 0px;
+				color: #0033FF;
+				text-decoration: none;
+			}
+
+			.bannerNav a:visited{
+				color: #0033FF;
+			}
+
+			.bannerNav a:hover{
+				color: #0033FF;
+				text-decoration: underline;
+			}
+			
+			.contentArea {
+				width: 980px;
+				padding-top: 0px;
+				padding-bottom: 20px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.contentleft {
+				border: 1px solid gray;
+				width: 410px;
+				padding-left: 30px;
+				padding-right: 30px;
+				float: left;
+			}
+			
+			.contentright {
+				border: 1px solid gray;
+				padding-right: 80px;
+				width: 410px;
+				float: left;	
+			}
+			
+			h2.leftAligned_h2 {
+				font-size: 14px;
+				font-weight: bold;
+				text-align: left;
+				margin-top: 35px;
+			}
+			
+			.formTitle {
+				font-size: 14px;
+				font-weight: bold;
+				text-align: center;
+			}
+			
+			/* FOOTER AREA */
+			.footerArea {
+				width: 908px;height: 88px;
+				/* margin-left:30px; */
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.footernav {
+				padding-top: 10px;
+				padding-right: 32px;
+				float: right;
+				color: #806c51;
+				font-size: 10px;
+				font-weight: bold;
+				font-family: Arial, Helvetica, Verdana, sans-serif;
+			}
+
+			.footernav a {
+				color: #806c51;
+				text-decoration: none;
+			}
+
+			.footernav a:hover {
+				color: #000000;
+				text-decoration: none;
+			}
+
+			.copyright {
+				border-top: solid;
+				/* border-color: #75570b; */
+				border-color: blue;
+				border-width: 1px;
+				margin-left: 30px;
+				margin-right: 30px;
+				padding-top: 12px;
+				
+				color: #806c51;
+				font-size: 12px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class = "container">
+			<div class="bannerArea">
+				<div class="toplogo">
+					VivahSoochna.in
+					<div class="slogan">
+						Your Partner in Finding a Life Partner
+					</div>
+				</div>
+				<div>
+				  <ul class="bannerNav">
+					  <li><input type="text" value="user-id" size="15"/></li>
+					  <li><input type="password" value="password" size="15"/></li>
+					  <li><input type="submit" value="Login"/></li>
+					  <li><a href="#">Forgot Password?</a></li>
+					  <li><a href="#">Contact</a></li>
+				  </ul>
+				</div>
+				<div>
+					<ul class="bannerNav">
+					  <li><a href="index.html">HOME</a></li>
+					  <li><a href="search.html">SEARCH</a></li>
+					  <li><a href="register.html">REGISTER</a></li>
+					  <li><a href="my_profile.html">MY PROFILE</a></li>
+					  <li><a href="pricing.html">PRICING</a></li>
+					  <li><a href="patrika.html">PATRIKA</a></li>
+					  <li><a href="aboutus.html">ABOUT US</a></li>
+					</ul>
+				</div>
+			</div>
+			<br><br>
+			<div class = "contentArea">
+				<div class="contentleft">
+					<p></p>
+					<h1>A Premier Marriage and Matrimonial Service <br />For Indians Worldwide</h1>
+					<img src="images/hp-leftbanner-jat-img.jpg" border="0" />
+					<br><br><br><br><br><br>
+					
+					<h2 class=leftAligned_h2>
+						Browse Profiles (Free)
+					</h2>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				</div>
+				<div class = "contentright">
+					<br>
+					<div class="formTitle">
+						Register (Free) or Login
+					</div>
+					<br><br><br><br><br><br><br><br><br><br><br><br>
+					<div class="formTitle">
+						Quick Search (Free)
+					</div>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div style="clear:both;"></div>
+			<br><br>
+			<div class="footerArea">
+				<div class="footernav">
+					<a href="#">Privacy Policy</a> | <a href="#">Contact Us</a> | <a href="#">Site Map</a>
+				</div>
+				<div class="copyright">
+					&copy; 2013 Vivah Soochna, All rights reserved.
+				</div>
+			</div>
+		</div>
+	</body>
