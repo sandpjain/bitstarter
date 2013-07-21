@@ -96,7 +96,8 @@
 			
 			.contentright {
 				border: 1px solid gray;
-				padding-right: 80px;
+				padding-right: 60px;
+				padding-left: 30px;
 				width: 410px;
 				float: left;	
 			}
@@ -112,6 +113,20 @@
 				font-size: 14px;
 				font-weight: bold;
 				text-align: center;
+			}
+			
+			table.formTable1 {
+				font-size: 12px;
+				font-weight: bold;
+				margin: 5px;
+				padding: 10px;
+				width: 410px;
+				border-spacing: 25px;
+			}
+
+			.submitButton1 {
+				margin-right: auto;
+				margin-left: 40px;
 			}
 			
 			/* FOOTER AREA */
@@ -193,22 +208,91 @@
 					<h1>A Premier Marriage and Matrimonial Service <br />For Indians Worldwide</h1>
 					<img src="images/hp-leftbanner-jat-img.jpg" border="0" />
 					<br><br><br><br><br><br>
+					(Photograph of couple)
+					<br><br><br><br><br><br>
 					
 					<h2 class=leftAligned_h2>
 						Browse Profiles (Free)
 					</h2>
-					<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					(3 - 4 Photographs of members)
+					<br><br>
+					He is 25 years old, from Bangalore, Karnataka.
+                    Education: Masters/management
+                    Profession: Consultant.
+                    He is a Digambar Jain.
+					<br><br>
+					She is 27 years old from Chandigarh.
+                    Education: B.Tech, Engineering
+                    Profession: Self Employed
+                    She is a Hindu Agarwal
+					<br><br>
+					She is 26 years old from Jaipur.
+                    Education: CA.
+                    Profession: CA
+                    She is a Shvetambar Jain
+					<br><br>
+					He is 48 years old from Delhi.
+                    Education: Diploma, Elec. Engineering.
+                    Profession: Service Center Owner
+                    He is a Shvetambar Jain
+					<br><br><br><br>
 				</div>
 				<div class = "contentright">
 					<br>
 					<div class="formTitle">
 						Register (Free) or Login
 					</div>
-					<br><br><br><br><br><br><br><br><br><br><br><br>
+					<br><br>
+					Already registered? Then log in here:<br><br>
+					Your email address:&nbsp;&nbsp;&nbsp;<input type="text" name="email" size="30"><br>
+					Your password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="password" size="30"><br><br>
+					<input type="submit" value="Login">
+					<br><br>
+					If not registered, please <a href="register.html">click here to register.</a>
+					<br><br><br>
 					<div class="formTitle">
 						Quick Search (Free)
 					</div>
-					<br><br><br><br><br><br><br><br><br><br><br><br><br>
+					<table class="formTable1">
+						<tr>
+							<td>Looking for</td>
+							<td><input type="radio"/>&nbsp;&nbsp;Bride&nbsp;&nbsp;<input type="radio"/>&nbsp;&nbsp;Groom</td>
+						</tr>
+						<tr>
+							<td>Age</td>
+							<td><select>
+                                <option value ="18-24">18 - 24</option>
+                                <option value ="25-34">25 - 34</option>
+                                <option value ="35-44">35 - 44</option>
+                                <option value ="45-54">45 - 54</option>
+							  </select>
+                              &nbsp;&nbsp;years
+						</tr>
+						<tr>
+							<td>Religion</td>
+							<td><select>
+                                <option value ="Jain">Jain</option>
+                                <option value ="Hindu">Hindu</option>
+                                <option value ="Muslim">Muslim</option>
+                                <option value ="Sikh">Sikh</option>
+                                <option value ="Christian">Christian</option>
+							  </select>
+							</td>
+						<tr>
+							<td>Country</td>
+							<td>
+								<select>
+									<option value ="India">India</option>
+									<option value ="USA">USA</option>
+									<option value ="UK">UK</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+					<div class="submitButton1">
+						<input type="submit" value="Search" />
+					</div>
+					<br><br>
 				</div>
 			</div>
 			<div style="clear:both;"></div>
